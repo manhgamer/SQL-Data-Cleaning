@@ -33,3 +33,8 @@ CREATE TABLE club_member_info_cleaned (
 	membership_date VARCHAR(50)
 );
 ```
+### Copy All values from original table
+```sql
+INSERT INTO club_member_info_cleaned
+SELECT * FROM club_member_info;
+```
