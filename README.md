@@ -22,7 +22,7 @@ SELECT * FROM club_member_info cmi LIMIT 10
 ### Create a new Table for cleaning
 -- club_member_info definition
 ```sql
-CREATE TABLE club_member_info (
+CREATE TABLE club_member_info_cleaned (
 	full_name VARCHAR(50),
 	age INTEGER,
 	martial_status VARCHAR(50),
