@@ -19,6 +19,7 @@ SELECT * FROM club_member_info cmi LIMIT 10
 | fey kloss|52|married|fkloss9@godaddy.com|808-177-0318|8976 Jackson Park,Honolulu,Hawaii|Chemical Engineer|11/5/2014|
 
 ## Copy the Table
+### Before Cleaning
 ### Create a new Table for cleaning
 -- club_member_info definition
 ```sql
@@ -38,3 +39,5 @@ CREATE TABLE club_member_info_cleaned (
 INSERT INTO club_member_info_cleaned
 SELECT * FROM club_member_info;
 ```
+### After Cleaning
+
